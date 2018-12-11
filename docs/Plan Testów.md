@@ -42,7 +42,7 @@
 
 #### Wprowadzenie
 
-„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w hotelu X na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci (nazwa) znajdujący się pod adresem (adres). W Systemie bedą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
+„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w RUP Hotel na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci RUPłatność znajdujący się pod adresem (adres). W Systemie bedą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
 
 #### Cel
 
@@ -56,49 +56,55 @@ Faza testowania w projekcie „System rezerwacji pokoi hotelowych dla RUP Hotel�
 
 Jest to pierwsza część aplikacja internetowa znajduja sie pod adresem (adres), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej cześci wchodzą:
 
-1. Data pobytu:
+**Data pobytu:**
 
-   1.1. Data przyjazdu - pole typu kalendarz
+- Data przyjazdu - pole typu kalendarz
 
-   1.2. Data wyjazdu - pole typu kalendarz
+- Data wyjazdu - pole typu kalendarz
 
-2. Wybór pokoi:
+**Wybor pokoi:**
 
-   2.1. Liczba gości - lista rozwijana
+- Łączna kwota - pole typu Label
 
-   2.2. Lista składajaca się z dostepnych pokoi - custom client
+- Przejdź dalej - button
 
-   2.3. Łączna kwota - pole typu Label
+- Liczba gości - lista rozwijana
 
-   2.4. Przejdź dalej - button
+- Lista składajaca się z dostepnych pokoi - custom client
 
 #### Obiekt: Aplikacja internetowa - Formularz osobowy
 
-Jest to druga część aplikacji internetowej znajdującej się pod adresem (adres), jej celem jest umożliwienie klientowi hotelu X wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatnośći tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
+Jest to drugi widok aplikacji internetowej znajdującej się pod adresem (adres), jej celem jest umożliwienie klientowi RUP Hotel wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatnośći tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
 
-1. Formularz składajacy sie z 3 pól tekstowych (Imie, Nazwisko, Numer dowodu)
-2. Generuj kod płatności – button
-3. Twoje dane zostaly/niezostaly zaakceptowane – pole typu Label
-4. Przejdź do płatnosci – button
+- Formularz składajacy sie z 3 pól tekstowych (Imie, Nazwisko, Numer dowodu)
 
-Po naciśnieciu przycisku przejdź do płatności, zostajemy przekierowni do niezależnego systemu płatności (nazwa), gdzie finalizujemy naszą rezerwacje wpisując wygenerowany na stronie kod. Po zatwierdzeniu serwis (nazwa) przekierowuje nas na stronę początkową wraz z komunikatem o rezultacie rezerwacji.
+- Generuj kod płatności – przycisk
+
+- Twoje dane zostaly/niezostaly zaakceptowane – pole typu Label
+
+- Przejdź do płatnosci – przycisk
+
+Po naciśnieciu przycisku przejdź do płatności, zostajemy przekierowni do niezależnego systemu płatności RUPłatności, gdzie finalizujemy naszą rezerwacje wpisując wygenerowany na stronie kod. Po zatwierdzeniu serwis RUPłatności przekierowuje nas na stronę początkową wraz z komunikatem o rezultacie rezerwacji.
 
 ---
 
 ## Funkcjonalność do przetestowania
 
-System rezerwacji pokoi hotelowych dla hotelu X ma umożliwić użytkownikowi zarezerwowanie w wybranym przez niego terminie dowolnej ilośći pokoi w każdym z możliwych typów, na bieżąco aktualizowana jest kwota należna do zapłaty oraz generowany jest unikalny kod niezbędny do potwierdzenia płatności.
+System rezerwacji pokoi hotelowych dla RUP Hotel ma umożliwić użytkownikowi zarezerwowanie w wybranym przez niego terminie dowolnej ilośći pokoi w każdym z możliwych typów, na bieżąco aktualizowana jest kwota należna do zapłaty oraz generowany jest unikalny kod niezbędny do potwierdzenia płatności.
 
 #### Pierwsza część aplikacji
 
-3.1.1 Funkcjonalność wyszukiwarki
+- Funkcjonalność wyszukiwarki
 
 #### Druga część aplikacji
 
-3.2.1 Pola tekstowe z formularza
-3.2.2 Poprawność wyświetlania statusu wypełnionych danych
-3.2.3 Poprawność generowania kodu do płatności
-3.2.4 Funkcjonalność przycisku przejdz do płatności
+- Pola tekstowe z formularza
+
+- Poprawność wyświetlania statusu wypełnionych danych
+
+- Poprawność generowania kodu do płatności 
+
+- Funkcjonalność przycisku przejdz do płatności
 
 #### Dodatkowo
 
@@ -116,7 +122,7 @@ System rezerwacji pokoi hotelowych dla hotelu X ma umożliwić użytkownikowi za
 
 ## Funkcjonalność nietestowana
 
-4.1 Wszystkie pola typu napisy tekstowe (Label)
+- Wszystkie pola typu napisy tekstowe (Label)
 
 ---
 
@@ -124,18 +130,20 @@ System rezerwacji pokoi hotelowych dla hotelu X ma umożliwić użytkownikowi za
 
 #### Podział obowiązków
 
-5.1.1 Michał Starski – Kierownik projektu, Programista
-5.1.2 Maciej Więcek – Programista
-5.1.3 Katarzyna Makohon – Analityk Systemowy
-5.1.4 Mateusz Lesiecki – Menadżer testów
-5.1.5 Bartłomiej Włodarczyk – Przegląd projektu
-5.1.6 Jędrzej Nowak – Analityk Systemowy
-5.1.7 Krystian Kabat – Integrator
-5.1.8 Dominika Augustyniak – Inżynier procesu
-5.1.9 Ada Andrzejczak – Projektant GUI
-5.1.10 Adam Ćwikliński – Administrator Systemu
-5.1.11 Patrycja Łaźna – Architekt Systemu
-5.1.12 Konrad Pierzyński – Programista
+| Osoba                 | Rola                            |
+|:---------------------:|:-------------------------------:|
+| Michał Starski        | Kierownik projektu, Programista |
+| Maciej Więcek         | Programista                     |
+| Katarzyna Makohon     | Analityk Systemowy              |
+| Mateusz Lesiecki      | Menadżer testów                 |
+| Bartłomiej Włodarczyk | Przegląd projektu               |
+| Jędrzej Nowak         | Analityk Systemowy              |
+| Krystian Kabat        | Integrator                      |
+| Dominika Augustyniak  | Inżynier procesu                |
+| Ada Andrzejczak       | Projektant GUI                  |
+| Adam Ćwikliński       | Administrator Systemu           |
+| Patrycja Łaźna        | Architekt Systemu               |
+| Konrad Pierzyński     | Programista                     |
 
 #### Harmonogram
 
@@ -146,7 +154,7 @@ System rezerwacji pokoi hotelowych dla hotelu X ma umożliwić użytkownikowi za
 
 ---
 
-## Strategia testowanias
+## Strategia testowania
 
 #### Testy jednostkowe
 
@@ -154,7 +162,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 
 #### Testy funkcjonalne
 
-1.
+
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
@@ -170,7 +178,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------:|:-------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu paska adres "(adres strony)" | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
 
-2.
+
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
@@ -187,7 +195,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                             |
 | 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę oraz brak komunikatu informującego o błedzie |
 
- 3.
+ 
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która mineła
 
@@ -203,7 +211,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę wcześniejszą od dzisiejszej o 3 dni | Wyświetlenie komunikatu informującego o wyborze daty która juz sie odbyła |
 
-4.
+
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu poźniejszej niz wyjazdu
 
@@ -220,7 +228,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw date poźniejszą o 7 dni od dzisiejszej | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                           |
 | 2. Wybierz strzałkęw polu kalendarzowym "wyjazd" i ustaw datę poźniejszą o 3 dni od dzisiejszej    | Wyświetlenie komunikatu informującym o wyborze późniejszej daty przyjazdu niz wyjazdu |
 
-5.
+
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
 
@@ -239,7 +247,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości         | Ustawienie w polu listy rozwijanej wybranej wartości              |
 | 4. Naciśnij przycisk "Szukaj"                                                  | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi |
 
-6.
+
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Nie istnieje możliwość pomieszczenai wszystkich gości)
 
@@ -258,7 +266,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości                                | Ustawienie w polu listy rozwijanej wybranej wartości                                                    |
 | 4. Naciśnij przycisk "Szukaj"                                                                         | Wyświetlenie komunikatu informującego ze w danym okresie hotel nie może pomieścić wybranej liczby gości |
 
-7.
+
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie informacji o braku połączenia z bazą danych
 
@@ -277,7 +285,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości                               | Ustawienie w polu listy rozwijanej wybranej wartości                                         |
 | 4. Naciśnij przycisk "Szukaj"                                                                        | Wyświetlenie komunikatu informującego o niemożliwości w danej chwilii załadowaniu propozycji |
 
-8.
+
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie kwoty należnej do zapłaty
 
@@ -297,7 +305,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 4. Naciśnij przycisk "Szukaj"                                                                                                        | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                        |
 | 5. Z listy dostępnych pokoi wybierz dwa pokoje tak żeby ilość gości wybrana w kroku 3 była rowna liczbie miejsc w wybranych pokojach | Podświetlenie wybranych pokoi oraz ustawienie wartosci Labela "Łączna kwota: " na "Łączna kwota: (suma wybranych pokoi)" |
 
-9.
+
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie formularza wyszukiwarki
 
@@ -318,7 +326,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie |
 | 6. Naciśnij przycisk "Przejdz dalej"                                                                                                | Przekierowanie na (adres) oraz zostaje załadowana strona zgodna z projektem GUI dla formularza osobowego                             |
 
-10.
+
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
@@ -336,7 +344,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 2.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długosci minimum 2                                                       | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                                                                                                                                                                   |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst, zostanie wyświetlony komunikat "Twoje dane zostaly zaakceptowane" oraz przycisk "Generuj kod płatności" przejdzie w stan umożliwiający kliknięcie |
 
-11.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
@@ -352,7 +360,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfre o długosci minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
 
-12.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)
 
@@ -368,7 +376,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z samych liter o długosci krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartosci wpisanej w pole tekstowe "Imię" |
 
-13.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie niedozwolonych znaków)
 
@@ -384,7 +392,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:---------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długosci minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
 
-14.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie za krótkiego ciągu)
 
@@ -400,7 +408,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z samych liter o długosci krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartosci wpisanej w pole tekstowe "Nazwisko" |
 
-15.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie za krótkiego ciągu)
 
@@ -416,7 +424,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków krótszy niz 9 znaków | Wyświetlenie komunikatu o zbyt krótkiej wartości wpisanej w pole tekstowe "Numer dowodu osobistego" |
 
-16.
+
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie ciagu którego suma kontrola sie nie zgadza)
 
@@ -432,7 +440,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie bedzie poprawna | Wyświetlenie komunikatu o zbyt nieprawidłowej sumie kontrolnej wpisanej w pole tekstowe "Numer dowodu osobistego" |
 
-17.
+
 
 **Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
 
@@ -448,7 +456,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Naciśnij przycisk "Generuj kod płatności" | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność, przycisk "Przejdź do płatności" przechodzi w stan umożliwiający nacisnięcie |
 
-18.
+
 
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
 
@@ -464,7 +472,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------:|:-------------------------:|
 | 1. Naciśnij przycisk "Przejdz dalej" w częsci "Formularz osobowy" | Przekierowanie na (adres) |
 
-19.
+
 
 **Nazwa przypadku testowego:** Udało się opłacić
 
@@ -480,7 +488,7 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz wygenerowany kod płatnośći w polu tekstowym "Kod płatności" | Przekierowanie na (adres) oraz wyswietlenie komunikatu powtierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
 
-20.
+
 
 **Nazwa przypadku testowego:** Nie udało sie opłacić
 
@@ -495,3 +503,33 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                                                                                               | Oczekiwany rezultat                                                                                                                |
 |:-------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz kod płatnośći różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na (adres) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
+
+
+
+
+
+
+
+---
+
+## Testy automatyczne
+
+
+
+---
+
+## Środowisko testowe
+
+
+
+---
+
+## Standarty/Bibliografia
+
+
+
+---
+
+## Odnośniki
+
+
