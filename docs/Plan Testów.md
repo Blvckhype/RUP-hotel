@@ -158,11 +158,9 @@ System rezerwacji pokoi hotelowych dla RUP Hotel ma umożliwić użytkownikowi z
 
 #### Testy jednostkowe
 
-Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pisane są przez zespół programistów.
+Projekt zakłada pokrycie testami jednostkowymi 90% kodu. Testy jedndostkowe pisane są przez zespół programistów.
 
 #### Testy funkcjonalne
-
-
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
@@ -177,8 +175,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                        | Oczekiwany rezultat                                                                   |
 |:--------------------------------------------:|:-------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu paska adres "(adres strony)" | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
-
-
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
@@ -195,8 +191,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                             |
 | 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę oraz brak komunikatu informującego o błedzie |
 
- 
-
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która mineła
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji.    
@@ -210,8 +204,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                                                                                | Oczekiwany rezultat                                                       |
 |:----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę wcześniejszą od dzisiejszej o 3 dni | Wyświetlenie komunikatu informującego o wyborze daty która juz sie odbyła |
-
-
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu poźniejszej niz wyjazdu
 
@@ -227,8 +219,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw date poźniejszą o 7 dni od dzisiejszej | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                           |
 | 2. Wybierz strzałkęw polu kalendarzowym "wyjazd" i ustaw datę poźniejszą o 3 dni od dzisiejszej    | Wyświetlenie komunikatu informującym o wyborze późniejszej daty przyjazdu niz wyjazdu |
-
-
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
 
@@ -247,8 +237,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości         | Ustawienie w polu listy rozwijanej wybranej wartości              |
 | 4. Naciśnij przycisk "Szukaj"                                                  | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi |
 
-
-
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Nie istnieje możliwość pomieszczenai wszystkich gości)
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji.
@@ -265,8 +253,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 2. Wybierz w polu "wyjazd"dowolną poprawną datę późniejszą od tej z punktu 1.                         | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                             |
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości                                | Ustawienie w polu listy rozwijanej wybranej wartości                                                    |
 | 4. Naciśnij przycisk "Szukaj"                                                                         | Wyświetlenie komunikatu informującego ze w danym okresie hotel nie może pomieścić wybranej liczby gości |
-
-
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie informacji o braku połączenia z bazą danych
 
@@ -285,8 +271,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz listę wartość z przedzialu [1- 10] gości                               | Ustawienie w polu listy rozwijanej wybranej wartości                                         |
 | 4. Naciśnij przycisk "Szukaj"                                                                        | Wyświetlenie komunikatu informującego o niemożliwości w danej chwilii załadowaniu propozycji |
 
-
-
 **Nazwa przypadku testowego:** Poprawne wyświetlenie kwoty należnej do zapłaty
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji.
@@ -304,8 +288,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz ilość gości z przedziału [1-10]                                                                        | Ustawienie w polu listy rozwijanej wybranej wartości                                                                     |
 | 4. Naciśnij przycisk "Szukaj"                                                                                                        | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                        |
 | 5. Z listy dostępnych pokoi wybierz dwa pokoje tak żeby ilość gości wybrana w kroku 3 była rowna liczbie miejsc w wybranych pokojach | Podświetlenie wybranych pokoi oraz ustawienie wartosci Labela "Łączna kwota: " na "Łączna kwota: (suma wybranych pokoi)" |
-
-
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie formularza wyszukiwarki
 
@@ -326,8 +308,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie |
 | 6. Naciśnij przycisk "Przejdz dalej"                                                                                                | Przekierowanie na (adres) oraz zostaje załadowana strona zgodna z projektem GUI dla formularza osobowego                             |
 
-
-
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
@@ -344,8 +324,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | 2.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długosci minimum 2                                                       | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                                                                                                                                                                   |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst, zostanie wyświetlony komunikat "Twoje dane zostaly zaakceptowane" oraz przycisk "Generuj kod płatności" przejdzie w stan umożliwiający kliknięcie |
 
-
-
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
@@ -359,8 +337,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                                                                           | Oczekiwany rezultat                                                                                   |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfre o długosci minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
-
-
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)
 
@@ -376,8 +352,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z samych liter o długosci krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartosci wpisanej w pole tekstowe "Imię" |
 
-
-
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie niedozwolonych znaków)
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
@@ -391,8 +365,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                                                                               | Oczekiwany rezultat                                                                                   |
 |:---------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długosci minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
-
-
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie za krótkiego ciągu)
 
@@ -408,8 +380,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z samych liter o długosci krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartosci wpisanej w pole tekstowe "Nazwisko" |
 
-
-
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie za krótkiego ciągu)
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
@@ -423,8 +393,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 | Kroki                                                                                         | Oczekiwany rezultat                                                                                 |
 |:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków krótszy niz 9 znaków | Wyświetlenie komunikatu o zbyt krótkiej wartości wpisanej w pole tekstowe "Numer dowodu osobistego" |
-
-
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie ciagu którego suma kontrola sie nie zgadza)
 
@@ -440,8 +408,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie bedzie poprawna | Wyświetlenie komunikatu o zbyt nieprawidłowej sumie kontrolnej wpisanej w pole tekstowe "Numer dowodu osobistego" |
 
-
-
 **Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany.
@@ -456,8 +422,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Naciśnij przycisk "Generuj kod płatności" | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność, przycisk "Przejdź do płatności" przechodzi w stan umożliwiający nacisnięcie |
 
-
-
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzająćy płatność.
@@ -468,11 +432,9 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-|                                                                   | Oczekiwany rezultat       |
-|:-----------------------------------------------------------------:|:-------------------------:|
-| 1. Naciśnij przycisk "Przejdz dalej" w częsci "Formularz osobowy" | Przekierowanie na (adres) |
-
-
+|                                                                  | Oczekiwany rezultat       |
+|:----------------------------------------------------------------:|:-------------------------:|
+| . Naciśnij przycisk "Przejdz dalej" w częsci "Formularz osobowy" | Przekierowanie na (adres) |
 
 **Nazwa przypadku testowego:** Udało się opłacić
 
@@ -488,8 +450,6 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz wygenerowany kod płatnośći w polu tekstowym "Kod płatności" | Przekierowanie na (adres) oraz wyswietlenie komunikatu powtierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
 
-
-
 **Nazwa przypadku testowego:** Nie udało sie opłacić
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) pod adresem (adres systemu platnosci), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
@@ -504,9 +464,47 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 |:-------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz kod płatnośći różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na (adres) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
 
+**Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po  zatwierdzonej płatności
 
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) na pustej karcie.
 
+**Wymagania:** Bezpieczeństwo
 
+**Autor:** Mateusz Lesiecki
+
+**Data aktualizacji:** 10.12.2018
+
+| Kroki                                                              | Oczekiwany rezultat                                                      |
+|:------------------------------------------------------------------:|:------------------------------------------------------------------------:|
+| 1. W polu adresu wpisać adres "(adres po zatwierdzonej płatności)" | Przekierowanie na strone z pierwszym widokiem, nie dodanie wpisu w bazie |
+
+**Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po niezatwierdzonej płatności
+
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) na pustej karcie.
+
+**Wymagania:** Bezpieczeństwo
+
+**Autor:** Mateusz Lesiecki
+
+**Data aktualizacji:** 10.12.2018
+
+| Kroki                                                                 | Oczekiwany rezultat                                                      |
+|:---------------------------------------------------------------------:|:------------------------------------------------------------------------:|
+| 1. W polu adresu wpisać adres "(adres po niezatwierdzonej płatności)" | Przekierowanie na strone z pierwszym widokiem, nie dodanie wpisu w bazie |
+
+**Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres drugiego widoku
+
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) na pustej karcie.
+
+**Wymagania:** Bezpieczeństwo
+
+**Autor:** Mateusz Lesiecki
+
+**Data aktualizacji:** 10.12.2018
+
+| Kroki                                                   | Oczekiwany rezultat                           |
+|:-------------------------------------------------------:|:---------------------------------------------:|
+| 1. W polu adresu wpisać adres "(adres drugiego widoku)" | Przekierowanie na strone z pierwszym widokiem |
 
 
 
@@ -514,22 +512,52 @@ Projekt zakłada pokrycie testami jednostkowymi 100% kodu. Testy jedndostkowe pi
 
 ## Testy automatyczne
 
+Nie przewidujemy testów automatycznych.
+
 
 
 ---
 
 ## Środowisko testowe
 
+- Łącze 1 MBit/s
+
+- Przeglądarka Firefox wersja 62.0.3 lub Chrome 70.0.3538.110 (lub nowsze)
+
+- Windows 10 
+
+- Włączona obsługa Javy
+
+- Język polski
+
+- Rozdzielczość min. 1280 x 720
+
 
 
 ---
 
-## Standarty/Bibliografia
+## Standardy/Bibliografia
 
-
+- IEEE Standard for Software Test Documentation (ANSI/IEEE std 829)
 
 ---
 
 ## Odnośniki
 
+- [Dokumentacja REST API](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Dokumentacja%20REST%20API.md)
 
+- [Model bazy danych](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Model_Bazy_Danych.md)
+
+- [Ogólny model informacyjny](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Model_Bazy_Danych.md)
+
+- [Specyfikacja architektury systemu](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Specyfikacja%20architektury%20systemu.md)
+
+- [Specyfikacja wykorzystywanych procesów](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Specyfikacja%20wykorzystywanych%20proces%C3%B3w.md)
+
+- [Specyfikacja wymagań systemowych](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Specyfikacja%20wymaga%C5%84%20systemowych.md)
+
+- [Diagram przypadków użycia](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.pdf)
+
+- [Diagram przypadków użycia 2](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Diagram%20przypadk%C3%B3w%20u%C5%BCycia-2.png)
+
+- [Diagram przypadków użycia 3](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Diagram%20przypadk%C3%B3w%20u%C5%BCycia-3.png)
