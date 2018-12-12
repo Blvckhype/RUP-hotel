@@ -32,7 +32,7 @@
 
 8. **Środowisko testowe**
 
-9. **Standardy/Bibliografia**
+9. **Standardy**
 
 10. **Odnośniki**
 
@@ -109,20 +109,28 @@ System rezerwacji pokoi hotelowych dla RUP Hotel ma umożliwić użytkownikowi z
 #### Dodatkowo
 
 - Poprawne załadowanie strony w przeglądarce
+
 - Poprawność dodania rezerwacji do bazy danych
+
 - Niedodanie rezerwacji do bazy w przypadku niepowodzenia płatności
+
 - Generowanie poprawnego kodu płatnośći (zgodnego z wymaganiami)
+
 - Przekierowanie na strone systemu płatności
+
 - Sprawdzenie czy wejscie na (adres) doda do bazy rezerwacje
+
 - Przekierowanie na storne poczatkową po udanej rezerwacji
+
 - Przekierowanie na strone początkowo po nieudanej rezerwacji wraz z odpowiednim komunikatem
+
 - Zgodność wyglądu strony razem z projektem GUI
 
 ---
 
 ## Funkcjonalność nietestowana
 
-- Wszystkie pola typu napisy tekstowe (Label)
+- Wszystkie napisy tekstowe (Label)
 
 ---
 
@@ -158,7 +166,7 @@ System rezerwacji pokoi hotelowych dla RUP Hotel ma umożliwić użytkownikowi z
 
 #### Testy jednostkowe
 
-Projekt zakłada pokrycie testami jednostkowymi 90% kodu. Testy jedndostkowe pisane są przez zespół programistów.
+Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pisane są przez zespół programistów.
 
 #### Testy funkcjonalne
 
@@ -512,15 +520,13 @@ Projekt zakłada pokrycie testami jednostkowymi 90% kodu. Testy jedndostkowe pis
 
 ## Testy automatyczne
 
-Nie przewidujemy testów automatycznych.
-
-
+- Nie przewidujemy testów automatycznych.
 
 ---
 
 ## Środowisko testowe
 
-- Łącze 1 MBit/s
+- Łącze min. 1 MBit/s
 
 - Przeglądarka Firefox wersja 62.0.3 lub Chrome 70.0.3538.110 (lub nowsze)
 
@@ -532,11 +538,9 @@ Nie przewidujemy testów automatycznych.
 
 - Rozdzielczość min. 1280 x 720
 
-
-
 ---
 
-## Standardy/Bibliografia
+## Standardy
 
 - IEEE Standard for Software Test Documentation (ANSI/IEEE std 829)
 
