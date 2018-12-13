@@ -68,6 +68,7 @@ Odpowiedź:
 
 ```
 {
-    token: String
+    token: String,
+    id: int
 }
 ```
