@@ -307,14 +307,14 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                     |
-|:-----------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wybierz w polu kalendarzowym "przyjazd" dowolną poprawną wartość                                                                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                             |
-| 2. Wybierz w polu ""wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1.                                                     | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                             |
-| 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                                    |
-| 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                       |
-| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                                    |
-| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na adres[s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku |
+| Kroki                                                                                                                               | Oczekiwany rezultat                                                                                                                                                                               |
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 1. Wybierz w polu kalendarzowym "przyjazd" dowolną poprawną wartość                                                                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                       |
+| 2. Wybierz w polu ""wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1.                                                     | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                       |
+| 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                              |
+| 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                 |
+| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                              |
+| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na[s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku |
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
@@ -442,7 +442,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 |                                                                   | Oczekiwany rezultat                                                                          |
 |:-----------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl) |
+| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl) |
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
 
@@ -482,7 +482,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                            | Oczekiwany rezultat                                                                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=true) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
+| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=true) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po niezatwierdzonej płatności
 
@@ -496,7 +496,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                       | Oczekiwany rezultat                                                                                                         |
 |:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
+| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres drugiego widoku
 
@@ -510,7 +510,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                            | Oczekiwany rezultat                                                                          |
 |:--------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) |
+| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) |
 
 ---
 
