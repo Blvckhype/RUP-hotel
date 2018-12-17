@@ -54,7 +54,7 @@ Faza testowania w projekcie „System rezerwacji pokoi hotelowych dla RUP Hotel�
 
 #### Obiekt: Aplikacja internetowa - Wyszukiwarka
 
-Jest to pierwsza część aplikacji internetowej znajdująca się pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
+Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
 
 **Data pobytu:**
 
@@ -66,23 +66,23 @@ Jest to pierwsza część aplikacji internetowej znajdująca się pod adresem [s
 
 - Łączna kwota - pole typu Label
 
-- Przejdź dalej - button
+- Przejdź dalej - przycisk
 
 - Liczba gości - lista rozwijana
 
-- Lista składająca się z dostępnych pokoi - custom client
+- Lista składająca się z dostępnych pokoi - tabela
 
 #### Obiekt: Aplikacja internetowa - Formularz osobowy
 
-Jest to drugi widok aplikacji internetowej znajdującej się pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), jej celem jest umożliwienie klientowi "RUP Hotel" wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatności tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
+Jest to drugi widok aplikacji internetowej znajdujący się pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data),  (niezbędne jest przejście przez pierwszy widok), jej celem jest umożliwienie klientowi "RUP Hotel" wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatności tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
 
 - Formularz składający się z 3 pól tekstowych (Imie, Nazwisko, Numer dowodu)
 
-- Generuj kod płatności – button
+- Generuj kod płatności – przycisk
 
 - Twoje dane zostały/niezostały zaakceptowane – pole typu Label
 
-- Przejdź do płatności – button
+- Przejdź do płatności – przycisk
 
 Po naciśnięciu przycisku przejdź do płatności, zostajemy przekierowni do niezależnego systemu płatności "RUPłatności", gdzie finalizujemy naszą rezerwację wpisując wygenerowany na stronie kod. Po zatwierdzeniu serwis "RUPłatności" przekierowuje nas na stronę początkową wraz z komunikatem o rezultacie rezerwacji.
 
@@ -130,7 +130,7 @@ System rezerwacji pokoi hotelowych dla "RUP Hotel" ma umożliwić użytkownikowi
 
 ## Funkcjonalność nietestowana
 
-- Wszystkie napisy tekstowe (Label)
+- Wszystkie napisy tekstowe
 
 ---
 
@@ -172,7 +172,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) .
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) .
 
 **Wymagania:** Wyświetlenie systemu rezerwacji pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/) .
 
@@ -186,7 +186,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszyskie pola są widoczne i dostępne do edycji.    
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszyskie pola są widoczne i dostępne do edycji.    
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -201,7 +201,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która minęła
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.    
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.    
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -215,7 +215,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu poźniejszej niz wyjazdu
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/) formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/) formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -230,7 +230,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -247,7 +247,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie komunikatu o braku miejsc w wybranym terminie (Nie istnieje możliwość pomieszczenia wszystkich gości)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -264,7 +264,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie informacji o braku połączenia z bazą danych
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, brak połączenia z bazą danych.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, brak połączenia z bazą danych.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -281,7 +281,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie kwoty należnej do zapłaty
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/),  formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/),  formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie kwoty należnej do zapłaty.
 
@@ -299,7 +299,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie formularza wyszukiwarki
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wypełnienie danych związanych z formularzem wyszukiwarki.
 
@@ -318,7 +318,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -334,7 +334,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -348,7 +348,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -362,7 +362,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie niedozwolonych znaków)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -376,7 +376,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -390,7 +390,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -404,7 +404,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie ciągu którego suma kontrola sie nie zgadza)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -418,7 +418,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
 
 **Wymagania:** Poprawny kod potwierdzający płatność.
 
@@ -432,7 +432,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzająćy płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzająćy płatność.
 
 **Wymagania:** Płatności
 
@@ -444,7 +444,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
 | 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl) |
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -458,7 +458,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Nie udało sie opłacić
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -472,7 +472,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po  zatwierdzonej płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyższa)) na pustej karcie.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) na pustej karcie.
 
 **Wymagania:** Bezpieczeństwo
 
@@ -500,7 +500,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres drugiego widoku
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 lub Mozilla Firefox wersja 62.0.3) na pustej karcie.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) na pustej karcie.
 
 **Wymagania:** Bezpieczeństwo
 
@@ -527,7 +527,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 - Przeglądarka Firefox wersja 62.0.3 lub Chrome 70.0.3538.110 (lub wyższe)
 
-- Windows 10 
+- System operacyjny - Windows 10 
 
 - Włączona obsługa Javy
 
