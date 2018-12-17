@@ -26,11 +26,12 @@ Niniejszy dokument zawiera omówienie możliwych zagrożeń systemu, analizę ry
 ## Przypadek nieoddania projektu
 
 W sytuacji niedokończenia i niedostarczenia projektu na czas każdy uczestnik projektu nie otrzymuje zaliczenia.
+Aby przeciwdziałać ryzyku, każdy członek zespołu pracuje i dba o jakość wykonywanej pracy. Cały zespół jest zapoznany z terminami i zobowiązuje się ich dotrzymać.
 
 ## Przypadek niedziałającej usługi hostingowej
 
-W przypadku niedziałającej usługi hostingowej strona rezerwacji pokoju w hotelu nie będzie dostępna. Skutkuje to brakiem możliwości rezerwacji pokoju.
+W przypadku niedziałającej usługi hostingowej strona rezerwacji pokoju w hotelu nie będzie dostępna. Skutkuje to brakiem możliwości rezerwacji pokoju. Aby zapobiec temu przypadkowi zespół wybrał stabilną opcję hostingową. W przypadku nagłego upadku usługi, klient ma prawo poprosić zespół o przeniesienie aplikacji na inny serwer.
 
 ## Przypadek niedziałającej strony płatności
 
-W przypadku, kiedy strona odpowiedzialna za dokonanie wpłaty nie działa, płatność nie zostatnie przetworzona i rezerwacja pokoju nie powiedzie się.
+W przypadku, kiedy strona odpowiedzialna za dokonanie wpłaty nie działa, płatność nie zostatnie przetworzona i rezerwacja pokoju nie powiedzie się. W momencie, w którym usługa płatności zostałaby wyłączona, klient, podobnie jak w przypadku niedziałającej usługi hostingowej ma prawo prosić o podłączenie aplikacji pod inną usługę.
