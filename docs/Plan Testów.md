@@ -170,7 +170,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 #### Testy funkcjonalne
 
-**Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
+**Nazwa przypadku testowego:** Załadowanie strony zgodnej z projetkem GUI.
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) .
 
@@ -180,9 +180,9 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                    | Oczekiwany rezultat                                                                   |
-|:--------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| 1. Wpisz w polu adresu "s434786.students.wmi.amu.edu.pl" | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
+| Kroki                                                                                             | Oczekiwany rezultat                                                                   |
+|:-------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
+| 1. Wpisz w polu adresu [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
@@ -444,6 +444,8 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 |:-----------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
 | 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl) |
 
+**Nazwa przypadku testowego:** Udało się zapłacić
+
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
@@ -456,7 +458,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 |:--------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | 1. Wpisz wygenerowany kod płatności w polu tekstowym "Kod płatności" | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz wyświetlenie komunikatu potwierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
 
-**Nazwa przypadku testowego:** Nie udało sie opłacić
+**Nazwa przypadku testowego:** Nie udało sie zapłacić
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
 
