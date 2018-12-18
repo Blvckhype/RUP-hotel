@@ -104,6 +104,7 @@
 | Potrzeby  | Struktura umożliwiająca sprawdzanie, czy w danym terminie jest dostępny pokój danego typu.                |
 | Zadania   | Znajdowanie wolnych pokoi zadanego typu w zadanym terminie.                                               |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                                                     |
+
 | Priorytet | normalny                                                                                                  |
 
 | ISYS 002  | API                                                                                                           |
@@ -115,6 +116,7 @@
 | Priorytet | normalny                                                                                                      |
 
 Pełna dokumentacja: [Dokumentacja REST API](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Dokumentacja%20REST%20API.md)
+
 
 ## Przewidywane komponenty systemu
 
