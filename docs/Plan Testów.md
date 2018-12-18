@@ -297,7 +297,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | 4. Naciśnij przycisk "Szukaj"                                                                                                    | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                        |
 | 5. Z listy dostępnych pokoi wybierz pokoje tak żeby ilość gości wybrana w kroku 3 była rowna liczbie miejsc w wybranych pokojach | Podświetlenie wybranych pokoi oraz ustawienie wartosci Labela "Łączna kwota: " na "Łączna kwota: (suma wybranych pokoi)" |
 
-**Nazwa przypadku testowego:** Poprawne wyświetlenie formularza wyszukiwarki
+**Nazwa przypadku testowego:** Poprawne wypełnienie formularza wyszukiwarki
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
@@ -314,7 +314,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                               |
 | 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                  |
 | 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                               |
-| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku |
+| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku |
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
@@ -519,7 +519,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 ## Testy automatyczne
 
 - Poprawne wypełnienie formularza osobowego (Imie : "Jan", Nazwisko: "Nowak", Numer dowodu osobistego : "ABA300000")
-- Poprawne wyświetlenie formularza wyszukiwarki (Data przyjadzu : 09.01.2019, Data wyjazdu: 15.01.2019, Liczba osob: 5, Kwota: 350)
+- Poprawne wypełnienie formularza wyszukiwarki (Data przyjadzu : 09.01.2019, Data wyjazdu: 15.01.2019, Liczba osob: 5, Pokoje: [ 2os  : 1 , 3os : 1], Kwota: 350)
 
 ---
 

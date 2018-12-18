@@ -22,7 +22,7 @@
 | Poprawne wyświetlenie komunikatu o braku miejsc w wybranym terminie (Nie istnieje możliwość pomieszczenia wszystkich gości) |          |
 | Poprawne wyświetlenie informacji o braku połączenia z bazą danych                                                           |          |
 | Poprawne wyświetlenie kwoty należnej do zapłaty                                                                             |          |
-| Poprawne wyświetlenie formularza wyszukiwarki                                                                               |          |
+| Poprawne wypełnienie formularza wyszukiwarki                                                                                |          |
 | Poprawne wypełnienie formularza osobowego                                                                                   |          |
 | Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)                                                   |          |
 | Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)                                                      |          |
