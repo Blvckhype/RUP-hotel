@@ -240,7 +240,7 @@ Szczegółowe wymagania dotyczące danych przetwarzanych w systemie znajdują si
 
 | ACPT 005  | **Testy akceptacyjne u klienta – Poprawność działania formularza osobowego.** |
 | --------- | ----------------------------------------------------------------------------- |
-| Opis      | Sprawdzenie czy akcje każdego elementu formularza osobowego działa poprawnie. |
+| Opis      | Sprawdzenie czy akcje każdego elementu formularza osobowego działają poprawnie. |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                         |
 | Priorytet | normalny                                                                      |
 
