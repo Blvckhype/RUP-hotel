@@ -442,11 +442,11 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 |                                                                   | Oczekiwany rezultat                                                  |
 |:-----------------------------------------------------------------:|:--------------------------------------------------------------------:|
-| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [46.187.239.247:1897](https://46.187.239.247:1897) |
+| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [46.187.239.247:1897](http://46.187.239.247:1897/) |
 
 **Nazwa przypadku testowego:** Udało się zapłacić
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -454,13 +454,13 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                | Oczekiwany rezulat                                                                                                                                                                                     |
-|:--------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wpisz wygenerowany kod płatności w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz wyświetlenie komunikatu potwierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
+| Kroki                                                                | Oczekiwany rezulat                                                                                                                                                                                                                             |
+|:--------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 1. Wpisz wygenerowany kod płatności w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com/result?success=true](https://pacific-tor-53766.herokuapp.com/result?success=true) oraz wyświetlenie komunikatu potwierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
 
 **Nazwa przypadku testowego:** Nie udało sie zapłacić
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -468,9 +468,9 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                   |
-|:-------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wpisz kod płatności różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
+| Kroki                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                                                             |
+|:-------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 1. Wpisz kod płatności różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com/result?success=false](https://pacific-tor-53766.herokuapp.com/result?success=false) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po  zatwierdzonej płatności
 
@@ -482,13 +482,13 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                                            | Oczekiwany rezultat                                                                                                         |
-|:------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać adres [pacific-tor-53766.herokuapp.com/result?success=true](https://pacific-tor-53766.herokuapp.com/result?success=true) | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz nie dodanie wpisu w bazie |
+| Kroki                                                                                                                                            | Oczekiwany rezultat       |
+|:------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|
+| 1. W polu adresu wpisać adres [pacific-tor-53766.herokuapp.com/result?success=true](https://pacific-tor-53766.herokuapp.com/result?success=true) | Nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po niezatwierdzonej płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja Wersja 70.0.3538.110 (lub wyższa) albo Mozilla Firefox wersja 62.0.3 (lub wyżśza)) na pustej karcie.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) na pustej karcie.
 
 **Wymagania:** Bezpieczeństwo
 
@@ -496,9 +496,9 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                                       | Oczekiwany rezultat                                                                                                         |
-|:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz nie dodanie wpisu w bazie |
+| Kroki                                                                                                                                       | Oczekiwany rezultat       |
+|:-------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|
+| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres drugiego widoku
 
@@ -519,7 +519,6 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 ## Testy automatyczne
 
 - Poprawne wypełnienie formularza osobowego (Imie : "Jan", Nazwisko: "Nowak", Numer dowodu osobistego : "ABA300000")
-- Poprawne wypełnienie formularza wyszukiwarki (Data przyjadzu : 09.01.2019, Data wyjazdu: 15.01.2019, Liczba osob: 5, Pokoje: [ 2os  : 1 , 3os : 1], Kwota: 350)
 
 ---
 
