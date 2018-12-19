@@ -104,7 +104,6 @@
 | Potrzeby  | Struktura umożliwiająca sprawdzanie, czy w danym terminie jest dostępny pokój danego typu.                |
 | Zadania   | Znajdowanie wolnych pokoi zadanego typu w zadanym terminie.                                               |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                                                     |
-
 | Priorytet | normalny                                                                                                  |
 
 | ISYS 002  | API                                                                                                           |
@@ -116,7 +115,6 @@
 | Priorytet | normalny                                                                                                      |
 
 Pełna dokumentacja: [Dokumentacja REST API](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Dokumentacja%20REST%20API.md)
-
 
 ## Przewidywane komponenty systemu
 
@@ -196,8 +194,6 @@ Szczegółowe wymagania dotyczące danych przetwarzanych w systemie znajdują si
 
 - System powinień być dostępny na różnych urządzeniach np. Smartphone.
 
-- Czas ładowania strony nie powinien przekraczać 2 sek.
-
 - System powinien być łatwy w opanowaniu dla ludzi z każdego przedziału wiekowego.
 
 ## Sytuacje wyjątkowe
@@ -242,29 +238,29 @@ Szczegółowe wymagania dotyczące danych przetwarzanych w systemie znajdują si
 
 | ACPT 005  | **Testy akceptacyjne u klienta – Poprawność działania formularza osobowego.** |
 | --------- | ----------------------------------------------------------------------------- |
-| Opis      | Sprawdzenie czy akcje każdego elementu formularza osobowego działają poprawnie. |
+| Opis      | Sprawdzenie czy akcje każdego elementu formularza osobowego działa poprawnie. |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                         |
 | Priorytet | normalny                                                                      |
 
-| ACPT 006  | Testy akceptacyjne u klienta – Poprawność generowania kodu płatności.** |
-| --------- | ----------------------------------------------------------------------- |
-| Opis      | Sprawdzenie czy generowany kod jest zgodny z ustalonymi wymaganiami.    |
-| Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                   |
-| Priorytet | normalny                                                                |
+| ACPT 006  | Testy akceptacyjne u klienta – Poprawność generowania kodu płatności. |
+| --------- | --------------------------------------------------------------------- |
+| Opis      | Sprawdzenie czy generowany kod jest zgodny z ustalonymi wymaganiami.  |
+| Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                 |
+| Priorytet | normalny                                                              |
 
-| ACPT 007  | Testy akceptacyjne u klienta – Transakcja zaakceptowana.**                                              |
+| ACPT 007  | Testy akceptacyjne u klienta – Transakcja zaakceptowana.                                                |
 | --------- | ------------------------------------------------------------------------------------------------------- |
 | Opis      | Przekierowanie na strone z formularzem wyszukiwarki wraz z odpowiednim komunikatem po udanej płatności. |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                                                   |
 | Priorytet | normalny                                                                                                |
 
-| ACPT 008  | Testy akceptacyjne u klienta – Transakcja odrzucona.**                                                     |
+| ACPT 008  | Testy akceptacyjne u klienta – Transakcja odrzucona.                                                       |
 | --------- | ---------------------------------------------------------------------------------------------------------- |
 | Opis      | Przekierowanie na strone z formularzem wyszukiwarki wraz z odpowiednim komunikatem po nieudanej płatności. |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                                                      |
 | Priorytet | normalny                                                                                                   |
 
-| ACPT 009  | Testy akceptacyjne u klienta – Poprawne przejście do zewnętrznego systemu płatności.**                                                 |
+| ACPT 009  | Testy akceptacyjne u klienta – Poprawne przejście do zewnętrznego systemu płatności.                                                   |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Opis      | Sprawdzenie czy po naciśnięciu przycisku "Przejdź dalej" w formularzu osobowym zostaniemy przekierowani na strone systemu RUPłatności. |
 | Źródło    | INTP 002 Przedstawiciel zleceniodawcy                                                                                                  |

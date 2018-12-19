@@ -194,10 +194,10 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                              | Oczekiwany rezultat                                                                                     |
-|:------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                             |
-| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę oraz brak komunikatu informującego o błędzie |
+| Kroki                                                                                                              | Oczekiwany rezultat                                         |
+|:------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
+| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę |
+| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę  |
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która minęła
 
@@ -209,9 +209,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                | Oczekiwany rezultat                                                       |
-|:----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
-| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę wcześniejszą od dzisiejszej o 3 dni | Wyświetlenie komunikatu informującego o wyborze daty która juz sie odbyła |
+| Kroki                                                                                                              | Oczekiwany rezultat                                         |
+|:------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
+| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę wcześniejszą od dzisiejszej o 3 dni               | Wartość pola kalendarzowego wskazuje wybraną przez nas datę |
+| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę  |
+| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości                                                   | Ustawienie w polu listy rozwijanej wybranej wartości        |
+| 4. Naciśnij przycisk "Szukaj"                                                                                      | Komunikat "Data: Data przyjazdu już minęła"                 |
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu poźniejszej niz wyjazdu
 
@@ -223,10 +226,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                              | Oczekiwany rezultat                                                                    |
-|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
-| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw date poźniejszą o 7 dni od dzisiejszej | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                            |
-| 2. Wybierz strzałkęw polu kalendarzowym "wyjazd" i ustaw datę poźniejszą o 3 dni od dzisiejszej    | Wyświetlenie komunikatu informującego o wyborze późniejszej daty przyjazdu niż wyjazdu |
+| Kroki                                                                                              | Oczekiwany rezultat                                               |
+|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------:|
+| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw date poźniejszą o 7 dni od dzisiejszej | Wartość pola kalendarzowego wskazuje wybraną przez nas datę       |
+| 2. Wybierz strzałkęw polu kalendarzowym "wyjazd" i ustaw datę poźniejszą o 3 dni od dzisiejszej    | Wartość pola kalendarzowego wskazuje wybrną przez nas datę        |
+| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości                                   | Ustawienie w polu listy rozwijanej wybranej wartości              |
+| 4. Naciśnij przycisk "Szukaj"                                                                      | Komunikat "Data: Data wyjazdu musi być większa od daty przyjazdu" |
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
 
@@ -238,12 +243,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                          | Oczekiwany rezultat                                                |
-|:------------------------------------------------------------------------------:|:------------------------------------------------------------------:|
-| 1. Wybierz w polu kalendarzowym "przyjazd" z dowolną poprawną wartość          | Wartość pola kalendarzowego wskazuje wybraną przez nas datę        |
-| 2. Wybierz w polu "wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1. | Wartość pola kalendarzowego wskazuje wybraną przez nas datę        |
-| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości               | Ustawienie w polu listy rozwijanej wybranej wartości               |
-| 4. Naciśnij przycisk "Szukaj"                                                  | Wyświetlenie wszystkich możliwych dostępnych w etym terminie pokoi |
+| Kroki                                                                          | Oczekiwany rezultat                                               |
+|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------:|
+| 1. Wybierz w polu kalendarzowym "przyjazd" z dowolną poprawną wartość          | Wartość pola kalendarzowego wskazuje wybraną przez nas datę       |
+| 2. Wybierz w polu "wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1. | Wartość pola kalendarzowego wskazuje wybraną przez nas datę       |
+| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości               | Ustawienie w polu listy rozwijanej wybranej wartości              |
+| 4. Naciśnij przycisk "Szukaj"                                                  | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi |
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie komunikatu o braku miejsc w wybranym terminie (Nie istnieje możliwość pomieszczenia wszystkich gości)
 
@@ -313,7 +318,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | 2. Wybierz w polu ""wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1.                                                     | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                         |
 | 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                                |
 | 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                   |
-| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                                |
+| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)"                                                                                                                                      |
 | 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku. |
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
@@ -326,11 +331,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                                                                                                                                                                    |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z liter o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                                                                                                                                                                       |
-| 2.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                       | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                                                                                                                                                                   |
-| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst, zostanie wyświetlony komunikat "Twoje dane zostaly zaakceptowane" oraz przycisk "Generuj kod płatności" przejdzie w stan umożliwiający kliknięcie |
+| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                                                                            |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
+| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z liter o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                                                                               |
+| 2.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                       | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                                                                           |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst                                                            |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
@@ -342,9 +348,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                           | Oczekiwany rezultat                                                                                   |
-|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfre o długości minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
+| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                       | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)
 
@@ -356,9 +365,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                         | Oczekiwany rezultat                                                              |
-|:-------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
-| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z samych liter o długosci krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartości wpisanej w pole tekstowe "Imię" |
+| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z samych liter o długości krótszej niz 2 znaki                                         | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie niedozwolonych znaków)
 
@@ -370,9 +382,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                               | Oczekiwany rezultat                                                                                   |
-|:---------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-| 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długości minimum 2 | Wyświetlenie w momencie wybrania znaku cyfry lub znaku komunikatu informującego o niedozwolonym znaku |
+| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długości minimum 2                                                    | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie za krótkiego ciągu)
 
@@ -384,9 +399,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                             | Oczekiwany rezultat                                                                  |
-|:-----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|
-| 1.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z samych liter o długości krótszej niz 2 znaki | Wyświetlenie komunikatu o zbyt krótkiej wartości wpisanej w pole tekstowe "Nazwisko" |
+| Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z samych liter o długości krótszej niz 2 znaki                                      | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie za krótkiego ciągu)
 
@@ -398,9 +416,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                         | Oczekiwany rezultat                                                                                 |
-|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków krótszy niż 9 znaków | Wyświetlenie komunikatu o zbyt krótkiej wartości wpisanej w pole tekstowe "Numer dowodu osobistego" |
+| Kroki                                                                                          | Oczekiwany rezultat                                                 |
+|:----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2 | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2 | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków krótszy niż 9 znaków  | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                   | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie ciągu którego suma kontrola sie nie zgadza)
 
@@ -412,23 +433,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                                                    | Oczekiwany rezultat                                                                                          |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie będzie poprawna | Wyświetlenie komunikatu o nieprawidłowej sumie kontrolnej wpisanej w pole tekstowe "Numer dowodu osobistego" |
-
-**Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
-
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
-
-**Wymagania:** Poprawny kod potwierdzający płatność.
-
-**Autor:** Mateusz Lesiecki
-
-**Data aktualizacji:** 10.12.2018
-
-| Kroki                                        | Oczekiwany rezultat                                                                                                                                                                                         |
-|:--------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Naciśnij przycisk "Generuj kod płatności" | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność, przycisk "Przejdź do płatności" przechodzi w stan umożliwiający nacisnięcie |
+| Kroki                                                                                                                                                    | Oczekiwany rezultat                                                 |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                           | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie będzie poprawna | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                             | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
 
