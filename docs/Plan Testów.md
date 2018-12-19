@@ -42,7 +42,7 @@
 
 #### Wprowadzenie
 
-„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w "RUP Hotel" na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci "RUPłatności" znajdujący się pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl/). W Systemie będą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
+„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w "RUP Hotel" na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci "RUPłatności" znajdujący się pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/). W Systemie będą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
 
 #### Cel
 
@@ -54,7 +54,7 @@ Faza testowania w projekcie „System rezerwacji pokoi hotelowych dla RUP Hotel�
 
 #### Obiekt: Aplikacja internetowa - Wyszukiwarka
 
-Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
+Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [pacific-tor-53766.herokuapp.com/](http://pacific-tor-53766.herokuapp.com/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
 
 **Data pobytu:**
 
@@ -74,7 +74,7 @@ Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [
 
 #### Obiekt: Aplikacja internetowa - Formularz osobowy
 
-Jest to drugi widok aplikacji internetowej znajdujący się pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data),  (niezbędne jest przejście przez pierwszy widok), jej celem jest umożliwienie klientowi "RUP Hotel" wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatności tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
+Jest to drugi widok aplikacji internetowej znajdujący się pod adresem [pacific-tor-53766.herokuapp.com/client-data](http://pacific-tor-53766.herokuapp.com/client-data),  (niezbędne jest przejście przez pierwszy widok), jej celem jest umożliwienie klientowi "RUP Hotel" wprowadzenia danych niezbędnych do ukończenia rezerwacji pokoju hotelowego oraz generuje kod niezbędny do potwierdzenia płatności tym samym całego procesu rezerwacji. W skład tej części wchodzi jedna głowna sekcja, której elementami są:
 
 - Formularz składający się z 3 pól tekstowych (Imie, Nazwisko, Numer dowodu)
 
@@ -118,7 +118,7 @@ System rezerwacji pokoi hotelowych dla "RUP Hotel" ma umożliwić użytkownikowi
 
 - Przekierowanie na stronę systemu płatności
 
-- Sprawdzenie czy wejście na "[s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=true)" doda do bazy rezerwacje
+- Sprawdzenie czy wejście na "[pacific-tor-53766.herokuapp.com/result?success=true](http://pacific-tor-53766.herokuapp.com/result?success=true)" doda do bazy rezerwacje
 
 - Przekierowanie na stornę poczatkową po udanej rezerwacji
 
@@ -174,7 +174,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) .
 
-**Wymagania:** Wyświetlenie systemu rezerwacji pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/) .
+**Wymagania:** Wyświetlenie systemu rezerwacji pod adresem [pacific-tor-53766.herokuapp.com/](http://pacific-tor-53766.herokuapp.com/) .
 
 **Autor:** Mateusz Lesiecki
 
@@ -182,11 +182,11 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                             | Oczekiwany rezultat                                                                   |
 |:-------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| 1. Wpisz w polu adresu [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
+| 1. Wpisz w polu adresu [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) | Zostanie załadowana strona systemu rezerwacji pokoi hotelowych, zgoda z projektem GUI |
 
 **Nazwa przypadku testowego:** Poprawne wybranie terminów przyjazdu i wyjazdu z hotelu.
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszyskie pola są widoczne i dostępne do edycji.    
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszyskie pola są widoczne i dostępne do edycji.    
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -201,7 +201,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która minęła
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.    
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.    
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -215,7 +215,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu poźniejszej niz wyjazdu
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/) formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wybranie terminu przyjazdu i wyjazdu.
 
@@ -230,7 +230,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -247,7 +247,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie komunikatu o braku miejsc w wybranym terminie (Nie istnieje możliwość pomieszczenia wszystkich gości)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -264,7 +264,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie informacji o braku połączenia z bazą danych
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, brak połączenia z bazą danych.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, brak połączenia z bazą danych.
 
 **Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
 
@@ -281,7 +281,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie kwoty należnej do zapłaty
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/),  formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com),  formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wyświetlenie kwoty należnej do zapłaty.
 
@@ -299,7 +299,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza wyszukiwarki
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
 
 **Wymagania:** Prawidłowe wypełnienie danych związanych z formularzem wyszukiwarki.
 
@@ -307,18 +307,18 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                |
-|:-----------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wybierz w polu kalendarzowym "przyjazd" dowolną poprawną wartość                                                                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                        |
-| 2. Wybierz w polu ""wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1.                                                     | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                        |
-| 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                               |
-| 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                  |
-| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                               |
-| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku |
+| Kroki                                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 1. Wybierz w polu kalendarzowym "przyjazd" dowolną poprawną wartość                                                                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                         |
+| 2. Wybierz w polu ""wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1.                                                     | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                                                                                                                                         |
+| 3. Z listy rozwijanej wybierz dowolną liczbe gości z przedziału [1-10]                                                              | Ustawienie w polu listy rozwijanej wybranej wartości                                                                                                                                                |
+| 4. Naciśnij przycisk "Szukaj"                                                                                                       | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi                                                                                                                                   |
+| 5. Z listy dostępnych pokoi wybierz pozycje tak żeby liczba miejsc w wybranych pokojach byla równa liczbie osob wybranych w kroku 3 | Zaktualizowanie Labelu "Łączna kowata: (suma wybranych pokoi)", przejście przycisku "Przejdź dalej" w stan umożliwiający naciśnięcie                                                                |
+| 6. Naciśnij przycisk "Przejdź dalej"                                                                                                | Przekierowanie na [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data) oraz zostaje załadowana strona zgodna z projektem GUI dla dla drugiego widoku. |
 
 **Nazwa przypadku testowego:** Poprawne wypełnienie formularza osobowego
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -334,7 +334,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -348,7 +348,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -362,7 +362,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie niedozwolonych znaków)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -376,7 +376,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Nazwisko" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -390,7 +390,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie za krótkiego ciągu)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -404,7 +404,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Numer dowodu osobistego" (Podanie ciągu którego suma kontrola sie nie zgadza)
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty oraz pokoje.
 
 **Wymagania:** Prawidłowe wypełnienie formularza osobowego.
 
@@ -418,7 +418,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
 
 **Wymagania:** Poprawny kod potwierdzający płatność.
 
@@ -432,7 +432,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzająćy płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzająćy płatność.
 
 **Wymagania:** Płatności
 
@@ -440,13 +440,13 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-|                                                                   | Oczekiwany rezultat                                                                          |
-|:-----------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl) |
+|                                                                   | Oczekiwany rezultat                                                  |
+|:-----------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| 1. Naciśnij przycisk "Przejdź dalej" w częsci "Formularz osobowy" | Przekierowanie na [46.187.239.247:1897](https://46.187.239.247:1897) |
 
 **Nazwa przypadku testowego:** Udało się zapłacić
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -456,11 +456,11 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                | Oczekiwany rezulat                                                                                                                                                                                     |
 |:--------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wpisz wygenerowany kod płatności w polu tekstowym "Kod płatności" | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz wyświetlenie komunikatu potwierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
+| 1. Wpisz wygenerowany kod płatności w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz wyświetlenie komunikatu potwierdzającego rezerwację, zostaje dodany wpis o rezerwacji do bazy danych |
 
 **Nazwa przypadku testowego:** Nie udało sie zapłacić
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [s442333.students.wmi.amu.edu.pl](https://s442333.students.wmi.amu.edu.pl), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/), formularz został załadowany poprawnie oraz wszystkei pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany, wygenerowano kod potwierdzający płatność.
 
 **Wymagania:** Płatność
 
@@ -470,7 +470,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                               | Oczekiwany rezultat                                                                                                                                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 1. Wpisz kod płatności różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
+| 1. Wpisz kod płatności różny od wygenerowanego ale zgodny z przyjętymi założeniami w polu tekstowym "Kod płatności" | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz wyswietlenie komunikatu informującego o niepowodzeniu rezerwacji, brak dodania wpisu do bazy danych |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po  zatwierdzonej płatności
 
@@ -484,7 +484,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                            | Oczekiwany rezultat                                                                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=true) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
+| 1. W polu adresu wpisać adres [pacific-tor-53766.herokuapp.com/result?success=true](https://pacific-tor-53766.herokuapp.com/result?success=true) | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres wygenerowany po niezatwierdzonej płatności
 
@@ -498,7 +498,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                       | Oczekiwany rezultat                                                                                                         |
 |:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) oraz nie dodanie wpisu w bazie |
+| 1. W polu adresu wpisać [s434786.students.wmi.amu.edu.pl/result?success=true](https://s434786.students.wmi.amu.edu.pl/result?success=false) | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) oraz nie dodanie wpisu w bazie |
 
 **Nazwa przypadku testowego:** Ominięcie wprowadzenia danych, wejście bezpośrednio na adres drugiego widoku
 
@@ -512,7 +512,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                            | Oczekiwany rezultat                                                                          |
 |:--------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-| 1. W polu adresu wpisać adres [s434786.students.wmi.amu.edu.pl/client-data](https://s434786.students.wmi.amu.edu.pl/client-data) | Przekierowanie na [s434786.students.wmi.amu.edu.pl](https://s434786.students.wmi.amu.edu.pl) |
+| 1. W polu adresu wpisać adres [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data) | Przekierowanie na [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com) |
 
 ---
 
