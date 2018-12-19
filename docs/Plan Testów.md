@@ -42,7 +42,7 @@
 
 #### Wprowadzenie
 
-„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w "RUP Hotel" na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci "RUPłatności" znajdujący się pod adresem [46.187.239.247:1897/](http://46.187.239.247:1897/). W Systemie będą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
+„System rezerwacji pokoi hotelowych dla RUP Hotel” jest to aplikacja internetowa pozwalajaca zarezerwować pokoje w "RUP Hotel" na określony czas pobytu oraz dokonać natychmiastowej zapłaty za pobyt w hotelu w niezależnym systemie płatnosci "RUPłatności" znajdujący się pod adresem [46.187.239.247:1897](http://46.187.239.247:1897/). W Systemie będą dostępne 1, 2 i 3 osobowe pokoje z różną konfiguracją łóżek. Projekt jest tworzony w metodyce RUP.
 
 #### Cel
 
@@ -54,7 +54,7 @@ Faza testowania w projekcie „System rezerwacji pokoi hotelowych dla RUP Hotel�
 
 #### Obiekt: Aplikacja internetowa - Wyszukiwarka
 
-Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [pacific-tor-53766.herokuapp.com/](http://pacific-tor-53766.herokuapp.com/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
+Jest to pierwsza część aplikacji internetowej znajdującej się pod adresem [pacific-tor-53766.herokuapp.com](http://pacific-tor-53766.herokuapp.com/), składa sie ona z dwóch głównych sekcji, pierwsza z nich to sekcja wyboru daty pobytu w hotelu a druga to sekcja umożliwiająca nam wybór liczby przyjezdnych gości oraz wybrać pokoje z listy dostępnych pokoi. W skład tej części wchodzą:
 
 **Data pobytu:**
 
@@ -174,7 +174,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) .
 
-**Wymagania:** Wyświetlenie systemu rezerwacji pod adresem [pacific-tor-53766.herokuapp.com/](http://pacific-tor-53766.herokuapp.com/) .
+**Wymagania:** Wyświetlenie systemu rezerwacji pod adresem [pacific-tor-53766.herokuapp.com](http://pacific-tor-53766.herokuapp.com/) .
 
 **Autor:** Mateusz Lesiecki
 
@@ -418,7 +418,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Nazwa przypadku testowego:** Poprawne generowanie kodu płatności
 
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
+**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com/client-data](https://pacific-tor-53766.herokuapp.com/client-data), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji, zostały wybrane prawidłowe daty, pokoje oraz formularz osobowy został wypełniony i zaakceptowany.
 
 **Wymagania:** Poprawny kod potwierdzający płatność.
 
