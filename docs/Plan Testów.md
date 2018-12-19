@@ -194,10 +194,12 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 **Data aktualizacji:** 10.12.2018
 
-| Kroki                                                                                                              | Oczekiwany rezultat                                         |
-|:------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę |
-| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę  |
+| Kroki                                                                                                              | Oczekiwany rezultat                                                              |
+|:------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
+| 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę poźniejszą od dzisiejszej o 2 dni                 | Wartość pola kalendarzowego wskazuje wybraną przez nas datę                      |
+| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę                       |
+| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości                                                   | Ustawienie w polu listy rozwijanej wybranej wartości                             |
+| 4. Naciśnij przycisk "Szukaj"                                                                                      | Wyświetlenie dostępnych pokoi w wybranym terminie oraz brak komunikatu o błędzie |
 
 **Nazwa przypadku testowego:** Wybranie daty przyjazdu która minęła
 
@@ -212,7 +214,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | Kroki                                                                                                              | Oczekiwany rezultat                                         |
 |:------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
 | 1. Wybierz strzałkę w polu kalendarzowym "przyjazd" i ustaw datę wcześniejszą od dzisiejszej o 3 dni               | Wartość pola kalendarzowego wskazuje wybraną przez nas datę |
-| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę  |
+| 2. Wybierz strzałkę w polu kalendarzowym "wyjazd" i ustaw datę poźniejszą od dzisiejszej o 5 dni od daty przyjazdu | Wartość pola kalendarzowego wskazuje wybrną przez nas datę  |
 | 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości                                                   | Ustawienie w polu listy rozwijanej wybranej wartości        |
 | 4. Naciśnij przycisk "Szukaj"                                                                                      | Komunikat "Data: Data przyjazdu już minęła"                 |
 
@@ -232,23 +234,6 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | 2. Wybierz strzałkęw polu kalendarzowym "wyjazd" i ustaw datę poźniejszą o 3 dni od dzisiejszej    | Wartość pola kalendarzowego wskazuje wybrną przez nas datę        |
 | 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości                                   | Ustawienie w polu listy rozwijanej wybranej wartości              |
 | 4. Naciśnij przycisk "Szukaj"                                                                      | Komunikat "Data: Data wyjazdu musi być większa od daty przyjazdu" |
-
-**Nazwa przypadku testowego:** Poprawne wyświetlenie opcji pokojowych dla określonej liczby gośći (Istnieje możliwość pomieszczenia wszystkich gości)
-
-**Warunki wstępne:** Użytkownik ma otwarta przeglądarke (Chrome wersja >= 70.0.3538.110 albo Mozilla Firefox wersja >= 62.0.3) pod adresem [pacific-tor-53766.herokuapp.com](https://pacific-tor-53766.herokuapp.com), formularz został załadowany poprawnie oraz wszystkie pola są widoczne i dostępne do edycji.
-
-**Wymagania:** Prawidłowe wyświetlenie dostępnych pokoi.
-
-**Autor:** Mateusz Lesiecki
-
-**Data aktualizacji:** 10.12.2018
-
-| Kroki                                                                          | Oczekiwany rezultat                                               |
-|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| 1. Wybierz w polu kalendarzowym "przyjazd" z dowolną poprawną wartość          | Wartość pola kalendarzowego wskazuje wybraną przez nas datę       |
-| 2. Wybierz w polu "wyjazd" dowolną poprawną datę późniejszą od tej z punktu 1. | Wartość pola kalendarzowego wskazuje wybraną przez nas datę       |
-| 3. Z listy rozwijanej wybierz wartość z przedziału [1- 10] gości               | Ustawienie w polu listy rozwijanej wybranej wartości              |
-| 4. Naciśnij przycisk "Szukaj"                                                  | Wyświetlenie wszystkich możliwych dostępnych w tym terminie pokoi |
 
 **Nazwa przypadku testowego:** Poprawne wyświetlenie komunikatu o braku miejsc w wybranym terminie (Nie istnieje możliwość pomieszczenia wszystkich gości)
 
@@ -336,7 +321,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z liter o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                                                                               |
 | 2.  Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                       | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                                                                           |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst                                                            |
-| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność |
+| 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Zostaje wygenerowany zgodnie z przyjętymi założeniami i wyswietlony w szarym prostokącie unikatowy kod potwierdzający płatność |
 
 **Nazwa przypadku testowego:** Błędne wypełnienie pola tekstowego "Imię" (Podanie niedozwolonych znaków)
 
@@ -351,7 +336,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                       | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
-| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
@@ -368,7 +353,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 | Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | 1.  Wpisz w polu tekstowym "Imię" dowolony ciąg składający sie z samych liter o długości krótszej niz 2 znaki                                         | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
-| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                        | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
@@ -384,8 +369,8 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
-| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długości minimum 2                                                    | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg zawierający znak lub cyfre o długości minimum 2                                                    | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
@@ -401,7 +386,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                                 | Oczekiwany rezultat                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                        | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
 | 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z samych liter o długości krótszej niz 2 znaki                                      | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony poprawny (poprawność sumy kontrolnej) ciąg składający sie z 3 liter alfabetu oraz 6 cyfr | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                          | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
@@ -418,8 +403,8 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                          | Oczekiwany rezultat                                                 |
 |:----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2 | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
-| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2 | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2 | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2 | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
 | 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków krótszy niż 9 znaków  | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                   | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
@@ -435,9 +420,9 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 
 | Kroki                                                                                                                                                    | Oczekiwany rezultat                                                 |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
+| 1. Wpisz w polu tekstowym "Imię" dowolony ciąg zawierający znak lub cyfrę o długości minimum 2                                                           | W polu tekstowym "Imię" pojawi sie wpisany tekst                    |
 | 2. Wpisz w polu tekstowym "Nazwisko" dowolony ciąg składający sie z liter o długości minimum 2                                                           | W polu tekstowym "Nazwisko" pojawi sie wpisany tekst                |
-| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie będzie poprawna | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
+| 3. Wpisz w polu tekstowym "Numer dowodu osobistego" dowolony ciąg znaków składający się z 3 liter i 6 znaków, których suma kontrolna nie będzie poprawna | W polu tekstowym "Numer dowodu osobistego" pojawi sie wpisany tekst |
 | 4. Naciśnij przycisk "Generuj kod płatności"                                                                                                             | Komunikat "Formularz: Proszę wypełnić wszystkie pola poprawnie"     |
 
 **Nazwa przypadku testowego:** Przejście do niezależnego systemu płatności
@@ -573,3 +558,7 @@ Projekt zakłada pokrycie testami jednostkowymi ~90% kodu. Testy jedndostkowe pi
 - [Diagram przypadków użycia 2](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Diagram%20przypadk%C3%B3w%20u%C5%BCycia-2.png)
 
 - [Diagram przypadków użycia 3](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Diagram%20przypadk%C3%B3w%20u%C5%BCycia-3.png)
+
+- [Raport testów manualnych](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Raport%20test%C3%B3w%20manualnych.md)
+
+- [Opis aktualnego wydania](https://github.com/michalStarski/RUP-hotel/blob/master/docs/Opis_aktualnego_wydania.md)
